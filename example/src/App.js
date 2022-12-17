@@ -1,10 +1,15 @@
 import React from 'react'
 
-import { ExampleComponent } from 'kaanlibui'
+import { Button, Paragraph } from 'kaanlibui'
 import 'kaanlibui/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <>
+    <Paragraph text='merhaba'/>
+    <Button text='Click'onClick={()=>alert('sa')}/>
+    </>
+  )
 }
 
 export default App
